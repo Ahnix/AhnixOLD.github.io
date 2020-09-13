@@ -15,7 +15,7 @@ tags:
 Instalando  Arch linux do zero.
 
 ## Download
-<p> Você encontra a ISOs para download do Arch Linux https://www.archlinux.org/download/ </p>
+<p> Você encontra a ISOs para download do Arch Linux <a href="https://www.archlinux.org/download/"> Clique Aqui!</a></p>
 <p> Depois é só usar um pen drive bootável da distro.</p>
 
 
