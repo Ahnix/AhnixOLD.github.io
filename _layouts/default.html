@@ -1,6 +1,18 @@
 {% include head.html %}
 
 <body>
+  <script type="application/ld+json">
+   {
+     "@context": "http://schema.org",
+     "@type": "WebSite",
+     "url": "http://ahnix.github.io/",
+     "potentialAction": {
+       "@type": "SearchAction",
+       "target": "http://ahnix.github.io//tags#{search_term_string}",
+       "query-input": "required name=search_term_string"
+     }
+   }
+   </script>
     <div class="container-fluid px-0">
 
     {% include header.html %}
@@ -12,6 +24,7 @@
     {% include footer.html %}
 
     </div><!-- FINAL DA container -->
+
     <script type="text/javascript">
     var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
     (function(){

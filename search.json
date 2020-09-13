@@ -1,0 +1,19 @@
+[
+
+    {
+      "title"    : "Instalando Arch",
+      "tags"     : "linux, archlinux",
+      "categories"     : "",
+      "url"      : "/2020/09/12/instalando-arch",
+      "date"     : "12 Sep 2020"
+    } ,
+
+    {
+      "title"    : "Instalando docker psql",
+      "tags"     : "docker, linux",
+      "categories"     : "",
+      "url"      : "/2020/09/13/docker-psql",
+      "date"     : "13 Sep 2020"
+    }
+
+]

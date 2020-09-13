@@ -10,8 +10,6 @@ tags:
 - linux
 ---
 
-![Archlinux](/assets/img/skell/arch.jpg)
-
 Instalando  Arch linux do zero.
 
 ## Download
