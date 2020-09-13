@@ -1,87 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="icon" href="/assets/img/icon.png">
-    <title>Ahnix</title>
-    <meta name="description" content="Engenharia de Software.">
-    <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
-    <script src="/assets/js/jquery-3.3.1.slim.min.js"></script>
-    <script src="/assets/js/popper.min.js"></script>
-    <script src="/assets/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.12.0/css/all.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i" rel="stylesheet">
-    <style media="screen">
-        body {background: #fff; font-family: "Open Sans", sans-serif;}
-        .intro {background-image: url("/assets/img/bg.png"); color: #fff; background-repeat: no-repeat; background-size:100%;}
-        .navbar .navbar-nav .nav-link {color: #fff;}
-        footer {color: #fff; }
-        footer p i {color: #b01f94;}
-        .a-card {color: #fff;}
-        .a-card:hover {color: #ccc;}
-    </style>
-</head>
-
-
-<body>
-    <div class="container-fluid px-0">
-
-    <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow">
-        <a class="navbar-brand" href="/">
-            <img src="/assets/img/logo.png" class="img-fluid" alt="Logo">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
-            <ul class="navbar-nav ml-auto">
-
-                <li class="nav-item">
-                    <a class="nav-link" href="/">
-                        <i class="fas fa-home"></i> Home
-                    </a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="/about">
-                        <i class="fas fa-users"></i> Sobre Nós
-                    </a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="/contato">
-                        <i class="fas fa-envelope"></i> Contato
-                    </a>
-                </li>
-            </ul>
-
-        </div>
-    </nav>
-
-    <div class="jumbotron jumbotron-fluid intro mt-5">
-      <div class="container">
-          <div class="row">
-
-             <div class="col text-center">
-                 <h1>Instalando Arch</h1>
-                 <h4>Instalando Arch linux do zero.</h4>
-                 <time>Sep, 12 2020</time>
-             </div>
-
-          </div>
-
-      </div>
-    </div>
-
-</header>
-
-
-    <div class="container">
-        <p><img src="/assets/img/skell/arch.jpg" alt="Archlinux" /></p>
+I"�<p><img src="/assets/img/skell/arch.jpg" alt="Archlinux" /></p>
 
 <p>Instalando  Arch linux do zero.</p>
 
@@ -141,7 +58,7 @@
 
 <figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">ln</span> <span class="nt">-sf</span> /usr/share/zoneinfo/America/Bahia /etc/localtime</code></pre></figure>
 
-<h2 id="definindo-variável-de-linguagem">Definindo variável de linguagem</h2>
+<h2 id="definindo-varivel-de-linguagem">Definindo vari�vel de linguagem</h2>
 
 <figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">echo </span><span class="nv">LANG</span><span class="o">=</span>pt_BR.UTF-8 <span class="o">&gt;&gt;</span> /etc/locale.conf</code></pre></figure>
 
@@ -169,12 +86,12 @@
 
 <figure class="highlight"><pre><code class="language-bash" data-lang="bash">pacman <span class="nt">-S</span> dosfstools os-prober mtools network-manager-applet networkmanager wpa_supplicant wireless_tools dialog <span class="nb">sudo </span>dhclient wget vim nano screen  </code></pre></figure>
 
-<h2 id="sudoers">Sudoers</h2>
+<h2 id="sudoers">sudoers</h2>
 <p>Troque o archuser pelo seu nome de usuario</p>
 
 <figure class="highlight"><pre><code class="language-bash" data-lang="bash">archuser <span class="nv">ALL</span><span class="o">=(</span>ALL<span class="o">)</span> ALL</code></pre></figure>
 
-<h2 id="efiboot">EFIboot</h2>
+<h2 id="efiboot">efiboot</h2>
 
 <figure class="highlight"><pre><code class="language-bash" data-lang="bash">pacman <span class="nt">-S</span> grub-efi-x86_64 efibootmgr</code></pre></figure>
 
@@ -188,30 +105,4 @@
 <p>Agora basta efetuar um crtl+d e reboot</p>
 
 <p>cya.</p>
-<p><img src="/assets/img/gvai.gif" alt="gvai" /></p>
-
-    </div>
-
-    <footer class="jumbotron jumbotron-fluid bg-dark mb-0 mt-5">
-    <p class="text-center">&reg; Todos Direitos Reservados. Criado com <a href="#">Bootstrap</a> e <i class="fas fa-heart"></i></p>
-    <h1 class="text-center">
-        <a href="https://github.com/Ahnix" style="color:#fff;" target="_blank"><i class="fab fa-github"></i></a>
-         <a href="https://twitter.com/" style="color:#fff;" target="_blank"><i class="fab fa-twitter"></i></a>
-    </h1>
-</footer>
-
-
-    </div><!-- FINAL DA container -->
-    <script type="text/javascript">
-    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-    (function(){
-    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-    s1.async=true;
-    s1.src='https://embed.tawk.to/5f5d573d4704467e89ee77c0/default';
-    s1.charset='UTF-8';
-    s1.setAttribute('crossorigin','*');
-    s0.parentNode.insertBefore(s1,s0);
-    })();
-    </script>
-</body>
-</html>
+:ET

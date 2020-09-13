@@ -1,11 +1,108 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-12T21:32:23-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Ahnix</title><subtitle>Engenharia de Software.</subtitle><entry><title type="html">Instalando Arch</title><link href="http://localhost:4000/instalando-arch/" rel="alternate" type="text/html" title="Instalando Arch" /><published>2020-09-12T08:01:02-03:00</published><updated>2020-09-12T08:01:02-03:00</updated><id>http://localhost:4000/instalando-arch</id><content type="html" xml:base="http://localhost:4000/instalando-arch/">&lt;p&gt;&lt;img src=&quot;/assets/img/skell/arch.jpg&quot; alt=&quot;Archlinux&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-13T09:47:14-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Ahnix</title><subtitle>Engenharia de Software.</subtitle><entry><title type="html">Instalando Arch</title><link href="http://localhost:4000/instalando-arch/" rel="alternate" type="text/html" title="Instalando Arch" /><published>2020-09-12T08:01:02-03:00</published><updated>2020-09-12T08:01:02-03:00</updated><id>http://localhost:4000/instalando-arch</id><content type="html" xml:base="http://localhost:4000/instalando-arch/">&lt;p&gt;&lt;img src=&quot;/assets/img/skell/arch.jpg&quot; alt=&quot;Archlinux&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Instalando  Arch linux do zero.&lt;/p&gt;
 
 &lt;h2 id=&quot;download&quot;&gt;Download&lt;/h2&gt;
+&lt;p&gt; Você encontra a ISOs para download do Arch Linux https://www.archlinux.org/download/ &lt;/p&gt;
+&lt;p&gt; Depois é só usar um pen drive bootável da distro.&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;wget ,sdiasjdasdas&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;instalação&quot;&gt;Instalação&lt;/h2&gt;
 
-&lt;h2 id=&quot;boot&quot;&gt;Boot&lt;/h2&gt;
+&lt;p&gt; O primeiro passo é ajustar o seu teclado&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;wget ,sdiasjdasdas&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name></name></author><category term="Arch" /><category term="jekyll" /><category term="linux" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/skell/arch.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/skell/arch.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;loadkeys br-abnt2&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Toda a instalação do Arch precisa de acesso à internet, por isso é importante que você esteja conectado.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;ping 1.1.1.1&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Caso você tenha Wi-Fi:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;wifi-menu&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;O próximo passo é conferir as suas partições&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;fdisk &lt;span class=&quot;nt&quot;&gt;-l&lt;/span&gt; /dev/sda&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Defina suas partições conforme seu hd ou seu gosto.&lt;/p&gt;
+&lt;p&gt;No meu caso ficou:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;/dev/sda1 &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;500MB para o /boot/efi&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+/dev/sda2 &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;todo o resto para o /&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;O GRUB no meu caso a /dev/sda1/ type EFI BIOS . O próximo passo é formatá-las:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;mkfs.fat &lt;span class=&quot;nt&quot;&gt;-F32&lt;/span&gt; /dev/sda1&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;mkfs.ext4 /dev/sda2&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;pontos-de-montagem&quot;&gt;Pontos de montagem&lt;/h2&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;mount /dev/sda2 /mnt&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;mkdir&lt;/span&gt; /mnt/boot/efi&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;instalação-dos-pacotes-base-do-arch&quot;&gt;Instalação dos pacotes base do Arch&lt;/h2&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;pacstrap /mnt base base-devel linux linux-firmware&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;vamos-gerar-a-nossa-tabela-fstab&quot;&gt;Vamos gerar a nossa tabela FSTAB&lt;/h2&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;genfstab &lt;span class=&quot;nt&quot;&gt;-U&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-p&lt;/span&gt; /mnt &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; /mnt/etc/fstab&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;chroot&quot;&gt;Chroot&lt;/h2&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;arch-chroot /mnt&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;definindo-horário&quot;&gt;Definindo Horário&lt;/h2&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;ln&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-sf&lt;/span&gt; /usr/share/zoneinfo/America/Bahia /etc/localtime&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;definindo-variável-de-linguagem&quot;&gt;Definindo variável de linguagem&lt;/h2&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;echo &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;LANG&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;pt_BR.UTF-8 &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; /etc/locale.conf&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;definindo-teclado-abnt2&quot;&gt;Definindo teclado abnt2&lt;/h2&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;echo &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;KEYMAP&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;br-abnt2 &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; /etc/vconsole.conf&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;definindo-host&quot;&gt;Definindo host&lt;/h2&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;arch&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; /etc/hosts&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;127.0.0.1      localhost.localdomain            localhost&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; /etc/hosts&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;senha-root&quot;&gt;senha root&lt;/h2&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;passwd&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;criando-user&quot;&gt;criando user&lt;/h2&gt;
+
+&lt;p&gt;Troque o archuser pelo seu nome de usuario&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;useradd &lt;span class=&quot;nt&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-g&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;users&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-G&lt;/span&gt; wheel archuser&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;instalar-pacotes-uteis&quot;&gt;Instalar pacotes uteis&lt;/h2&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;pacman &lt;span class=&quot;nt&quot;&gt;-S&lt;/span&gt; dosfstools os-prober mtools network-manager-applet networkmanager wpa_supplicant wireless_tools dialog &lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;dhclient wget vim nano screen  &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;sudoers&quot;&gt;Sudoers&lt;/h2&gt;
+&lt;p&gt;Troque o archuser pelo seu nome de usuario&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;archuser &lt;span class=&quot;nv&quot;&gt;ALL&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=(&lt;/span&gt;ALL&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; ALL&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;efiboot&quot;&gt;EFIboot&lt;/h2&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;pacman &lt;span class=&quot;nt&quot;&gt;-S&lt;/span&gt; grub-efi-x86_64 efibootmgr&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;grub-install &lt;span class=&quot;nt&quot;&gt;--target&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;x86_64-efi &lt;span class=&quot;nt&quot;&gt;--efi-directory&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;/boot/efi &lt;span class=&quot;nt&quot;&gt;--bootloader-id&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;arch_grub &lt;span class=&quot;nt&quot;&gt;--recheck&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;cp&lt;/span&gt; /usr/share/locale/en@quot/LC_MESSAGES/grub.mo /boot/grub/locale/en.mo&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;grub-mkconfig &lt;span class=&quot;nt&quot;&gt;-o&lt;/span&gt; /boot/grub/grub.cfg&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;instalação-concluida&quot;&gt;Instalação concluida&lt;/h2&gt;
+&lt;p&gt;Agora basta efetuar um crtl+d e reboot&lt;/p&gt;
+
+&lt;p&gt;cya.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/gvai.gif&quot; alt=&quot;gvai&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="Arch" /><category term="jekyll" /><category term="linux" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/skell/arch.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/skell/arch.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
