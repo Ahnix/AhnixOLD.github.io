@@ -1,0 +1,26 @@
+---
+layout: contato
+title: Contato
+permalink: /contato/
+---
+<form accept-charset="UTF-8" action="https://getform.io/f/1c264836-4058-4ea1-89c2-d8fea83b503b" method="POST" enctype="multipart/form-data" target="_blank">
+          <div class="form-group">
+            <label for="exampleInputEmail1" required="required">Email</label>
+            <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Coloque aqui seu email." required="required">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputName">Nome</label>
+            <input type="text" name="name" class="form-control" id="exampleInputName" placeholder="Coloque o seu nome." required="required">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputName">Apresentação ou sugestão</label>
+            <textarea name="message" rows="12" cols="80" type="text" name="name" class="form-control" id="exampleInputName" placeholder="Coloque a sua apresentação ou sugestão." required="required"></textarea>
+          </div>
+          <hr>
+          <div class="form-group mt-3">
+            <label class="mr-2">Upload:</label>
+            <input type="file" name="file">
+          </div>
+          <hr>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+</form>
