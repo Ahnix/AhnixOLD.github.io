@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-13T10:10:32-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Ahnix</title><subtitle>Engenharia de Software.</subtitle><entry><title type="html">Instalando Arch</title><link href="http://localhost:4000/instalando-arch/" rel="alternate" type="text/html" title="Instalando Arch" /><published>2020-09-12T08:01:02-03:00</published><updated>2020-09-12T08:01:02-03:00</updated><id>http://localhost:4000/instalando-arch</id><content type="html" xml:base="http://localhost:4000/instalando-arch/">&lt;p&gt;&lt;img src=&quot;/assets/img/skell/arch.jpg&quot; alt=&quot;Archlinux&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-13T11:00:54-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Ahnix</title><subtitle>Engenharia de Software.</subtitle><entry><title type="html">Instalando Arch</title><link href="http://localhost:4000/instalando-arch/" rel="alternate" type="text/html" title="Instalando Arch" /><published>2020-09-12T08:01:02-03:00</published><updated>2020-09-12T08:01:02-03:00</updated><id>http://localhost:4000/instalando-arch</id><content type="html" xml:base="http://localhost:4000/instalando-arch/">&lt;p&gt;&lt;img src=&quot;/assets/img/skell/arch.jpg&quot; alt=&quot;Archlinux&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Instalando  Arch linux do zero.&lt;/p&gt;
 
@@ -105,4 +105,41 @@
 &lt;p&gt;Agora basta efetuar um crtl+d e reboot&lt;/p&gt;
 
 &lt;p&gt;cya.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/img/gvai.gif&quot; alt=&quot;gvai&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="Arch" /><category term="jekyll" /><category term="linux" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/skell/arch.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/skell/arch.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;p&gt;&lt;img src=&quot;/assets/img/gvai.gif&quot; alt=&quot;gvai&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="Arch" /><category term="jekyll" /><category term="linux" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/skell/arch.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/skell/arch.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Docker Psql</title><link href="http://localhost:4000/docker-psql/" rel="alternate" type="text/html" title="Docker Psql" /><published>2020-09-12T08:01:02-03:00</published><updated>2020-09-12T08:01:02-03:00</updated><id>http://localhost:4000/docker-psql</id><content type="html" xml:base="http://localhost:4000/docker-psql/">&lt;p&gt;&lt;img src=&quot;/assets/img/dockpsql.png&quot; alt=&quot;dockpsql&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt; Instalando docker e containers do postgresql &quot;psql&quot;. &lt;/p&gt;
+
+&lt;h2 id=&quot;obtendo-as-imagens-necessárias&quot;&gt;Obtendo as imagens necessárias&lt;/h2&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;docker pull dpage/pgadmin4&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;docker pull postgres&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;criando-rede-bridge-para-o-postgres-rodar&quot;&gt;Criando rede bridge para o postgres rodar&lt;/h2&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;docker network create &lt;span class=&quot;nt&quot;&gt;--driver&lt;/span&gt; bridge postgres-network&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;obtendo-as-imagens-necessárias-1&quot;&gt;Obtendo as imagens necessárias&lt;/h2&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;docker run &lt;span class=&quot;nt&quot;&gt;--name&lt;/span&gt; postgres &lt;span class=&quot;nt&quot;&gt;--network&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;postgres-network &lt;span class=&quot;nt&quot;&gt;-e&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;POSTGRES_PASSWORD=suasenha&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-p&lt;/span&gt; 5432:5432 &lt;span class=&quot;nt&quot;&gt;-v&lt;/span&gt; ~/PostgreSQL:/var/lib/postgresql/data &lt;span class=&quot;nt&quot;&gt;-d&lt;/span&gt; postgres&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;docker run &lt;span class=&quot;nt&quot;&gt;--name&lt;/span&gt; pgadmin &lt;span class=&quot;nt&quot;&gt;--network&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;postgres-network &lt;span class=&quot;nt&quot;&gt;-p&lt;/span&gt; 15432:80 &lt;span class=&quot;nt&quot;&gt;-e&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;PGADMIN_DEFAULT_EMAIL=ramon@gmail.com&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-e&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;PGADMIN_DEFAULT_PASSWORD=suasenha&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-d&lt;/span&gt; dpage/pgadmin4&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;acesso-pgadmin&quot;&gt;Acesso PGADMIN&lt;/h2&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;http://localhost:15432&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;acesso-console&quot;&gt;Acesso console&lt;/h2&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;ifconfig docker0&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Colete o ip e efetue Acesso.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;psql &lt;span class=&quot;nt&quot;&gt;-U&lt;/span&gt; postgres &lt;span class=&quot;nt&quot;&gt;-h&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;ip coletado&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;screenshots&quot;&gt;Screenshots&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/pgadmin.png&quot; alt=&quot;pgadmin&quot; /&gt;
+&lt;img src=&quot;/assets/img/pgadmin1.png&quot; alt=&quot;pgadmin&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;cya.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/gvai.gif&quot; alt=&quot;gvai&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="Docker" /><category term="Psql" /><category term="Jekyll" /><category term="Linux" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/dockpsql.png" /><media:content medium="image" url="http://localhost:4000/assets/img/dockpsql.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
