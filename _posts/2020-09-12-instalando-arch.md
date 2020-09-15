@@ -10,6 +10,7 @@ tags:
 - linux
 ---
 
+<img src="/assets/img/skell/arch.jpg" style="width: 286px; height: 180px;">
 Instalando  Arch linux do zero.
 
 ## Download

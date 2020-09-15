@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-15T13:01:47-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Ahnix</title><subtitle>Engenharia de Software.</subtitle><entry><title type="html">Instalando Arch</title><link href="http://localhost:4000/instalando-arch/" rel="alternate" type="text/html" title="Instalando Arch" /><published>2020-09-12T08:01:02-03:00</published><updated>2020-09-12T08:01:02-03:00</updated><id>http://localhost:4000/instalando-arch</id><content type="html" xml:base="http://localhost:4000/instalando-arch/">&lt;p&gt;Instalando  Arch linux do zero.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-15T13:20:23-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Ahnix</title><subtitle>Engenharia de Software.</subtitle><entry><title type="html">Instalando Arch</title><link href="http://localhost:4000/instalando-arch/" rel="alternate" type="text/html" title="Instalando Arch" /><published>2020-09-12T08:01:02-03:00</published><updated>2020-09-12T08:01:02-03:00</updated><id>http://localhost:4000/instalando-arch</id><content type="html" xml:base="http://localhost:4000/instalando-arch/">&lt;p&gt;&lt;img src=&quot;/assets/img/skell/arch.jpg&quot; style=&quot;width: 286px; height: 180px;&quot; /&gt;
+Instalando  Arch linux do zero.&lt;/p&gt;
 
 &lt;h2 id=&quot;download&quot;&gt;Download&lt;/h2&gt;
 &lt;p&gt; Você encontra a ISOs para download do Arch Linux &lt;a href=&quot;https://www.archlinux.org/download/&quot;&gt; Clique Aqui!&lt;/a&gt;&lt;/p&gt;
@@ -103,7 +104,7 @@
 &lt;p&gt;Agora basta efetuar um crtl+d e reboot&lt;/p&gt;
 
 &lt;p&gt;cya.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/img/gvai.gif&quot; alt=&quot;gvai&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="Arch" /><category term="jekyll" /><category term="linux" /><summary type="html">Instalando Arch linux do zero.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/skell/arch.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/skell/arch.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Docker Psql</title><link href="http://localhost:4000/docker-psql/" rel="alternate" type="text/html" title="Docker Psql" /><published>2020-09-12T08:01:02-03:00</published><updated>2020-09-12T08:01:02-03:00</updated><id>http://localhost:4000/docker-psql</id><content type="html" xml:base="http://localhost:4000/docker-psql/">&lt;p&gt;&lt;img src=&quot;/assets/img/dockpsql.png&quot; alt=&quot;dockpsql&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/gvai.gif&quot; alt=&quot;gvai&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="Arch" /><category term="jekyll" /><category term="linux" /><summary type="html">Instalando Arch linux do zero.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/skell/arch.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/skell/arch.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Docker Psql</title><link href="http://localhost:4000/docker-psql/" rel="alternate" type="text/html" title="Docker Psql" /><published>2020-09-12T08:01:02-03:00</published><updated>2020-09-12T08:01:02-03:00</updated><id>http://localhost:4000/docker-psql</id><content type="html" xml:base="http://localhost:4000/docker-psql/">&lt;p&gt;&lt;img src=&quot;/assets/img/dockpsql.png&quot; style=&quot;width: 286px; height: 180px;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt; Instalando docker e containers do postgresql &quot;psql&quot;. &lt;/p&gt;
 
@@ -140,4 +141,50 @@
 &lt;img src=&quot;/assets/img/pgadmin1.png&quot; alt=&quot;pgadmin&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;cya.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/img/gvai.gif&quot; alt=&quot;gvai&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="Docker" /><category term="Psql" /><category term="Jekyll" /><category term="Linux" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/dockpsql.png" /><media:content medium="image" url="http://localhost:4000/assets/img/dockpsql.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;p&gt;&lt;img src=&quot;/assets/img/gvai.gif&quot; alt=&quot;gvai&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="Docker" /><category term="Psql" /><category term="Jekyll" /><category term="Linux" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/dockpsql.png" /><media:content medium="image" url="http://localhost:4000/assets/img/dockpsql.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Apache PHP</title><link href="http://localhost:4000/apache-php/" rel="alternate" type="text/html" title="Apache PHP" /><published>2020-09-12T08:01:02-03:00</published><updated>2020-09-12T08:01:02-03:00</updated><id>http://localhost:4000/apache-php</id><content type="html" xml:base="http://localhost:4000/apache-php/">&lt;p&gt;&lt;img src=&quot;/assets/img/apache-php.png&quot; style=&quot;width: 286px; height: 180px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt; Instalando docker e containers do postgresql &quot;psql&quot;. &lt;/p&gt;
+
+&lt;h2 id=&quot;instalando-apache&quot;&gt;Instalando Apache&lt;/h2&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;pacman &lt;span class=&quot;nt&quot;&gt;-S&lt;/span&gt; apache&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;systemctl start httpd.service&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;systemctl &lt;span class=&quot;nb&quot;&gt;enable &lt;/span&gt;httpd.service&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Para testarmos nossa instalação do Apache, abra seu navegador, e acesse: http://localhost/ &lt;/p&gt;
+
+&lt;h2 id=&quot;instalando-php&quot;&gt;Instalando php&lt;/h2&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;pacman &lt;span class=&quot;nt&quot;&gt;-S&lt;/span&gt; php php-apache&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt; Vamos editar o arquivo httpd.conf desta forma: &lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;vim /etc/httpd/conf/httpd.conf&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Comente esta linha, colocando um # no início da linha, ficando desta forma:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;c&quot;&gt;#LoadModule mpm_event_module modules/mod_mpm_event.so&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Descomente esta linha, retirando # no início da linha, ficando desta forma:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;LoadModule mpm_prefork_module modules/mod_mpm_prefork.so
+LoadModule rewrite_module          modules/mod_rewrite.so&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;LoadModule dir_module modules/mod_dir.so&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Logo abaixo desta linha, insira a linha abaixo:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;LoadModule php7_module modules/libphp7.so&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Agora, procure a seção onde temos uma série de Include, e insira no final desta parte a linha abaixo:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;Include conf/extra/php7_module.conf&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Salve o arquivo, e reinicie o Apache, para podermos testar se o PHP está funcionando corretamente.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;systemctl restart httpd.service&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;E isso é tudo pessoal.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/gvai.gif&quot; alt=&quot;gvai&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="Apache" /><category term="Php" /><category term="Arch" /><category term="Linux" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/apache-php.png" /><media:content medium="image" url="http://localhost:4000/assets/img/apache-php.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

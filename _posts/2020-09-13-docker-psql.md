@@ -11,8 +11,7 @@ tags:
 - Linux
 ---
 
-![dockpsql](/assets/img/dockpsql.png)
-
+<img src="/assets/img/dockpsql.png" style="width: 286px; height: 180px;">
 
 <p> Instalando docker e containers do postgresql "psql". </p>
 
