@@ -72,7 +72,3 @@ Include conf/extra/php7_module.conf
 {% highlight bash %}
 sudo systemctl restart httpd.service
 {% endhighlight %}
-
-
-<p>E isso é tudo pessoal.</p>
-![gvai](/assets/img/gvai.gif)

@@ -143,6 +143,3 @@ grub-mkconfig -o /boot/grub/grub.cfg
 
 ## Instalação concluida
 <p>Agora basta efetuar um crtl+d e reboot</p>
-
-<p>cya.</p>
-![gvai](/assets/img/gvai.gif)

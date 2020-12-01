@@ -65,6 +65,3 @@ psql -U postgres -h "ip coletado"
 ## Screenshots
 ![pgadmin](/assets/img/pgadmin.png)
 ![pgadmin](/assets/img/pgadmin1.png)
-
-<p>cya.</p>
-![gvai](/assets/img/gvai.gif)

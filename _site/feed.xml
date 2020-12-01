@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-15T14:16:10-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Ahnix</title><subtitle>Engenharia de Software.</subtitle><entry><title type="html">Instalando Arch</title><link href="http://localhost:4000/instalando-arch/" rel="alternate" type="text/html" title="Instalando Arch" /><published>2020-09-12T08:01:02-03:00</published><updated>2020-09-12T08:01:02-03:00</updated><id>http://localhost:4000/instalando-arch</id><content type="html" xml:base="http://localhost:4000/instalando-arch/">&lt;p&gt;&lt;img src=&quot;/assets/img/skell/arch.jpg&quot; style=&quot;width: 286px; height: 180px;&quot; /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-12-01T09:31:03-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Ahnix</title><subtitle>Engenharia de Software.</subtitle><entry><title type="html">Instalando Arch</title><link href="http://localhost:4000/instalando-arch/" rel="alternate" type="text/html" title="Instalando Arch" /><published>2020-09-12T08:01:02-03:00</published><updated>2020-09-12T08:01:02-03:00</updated><id>http://localhost:4000/instalando-arch</id><content type="html" xml:base="http://localhost:4000/instalando-arch/">&lt;p&gt;&lt;img src=&quot;/assets/img/skell/arch.jpg&quot; style=&quot;width: 286px; height: 180px;&quot; /&gt;
 Instalando  Arch linux do zero.&lt;/p&gt;
 
 &lt;h2 id=&quot;download&quot;&gt;Download&lt;/h2&gt;
@@ -101,10 +101,7 @@ Instalando  Arch linux do zero.&lt;/p&gt;
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;grub-mkconfig &lt;span class=&quot;nt&quot;&gt;-o&lt;/span&gt; /boot/grub/grub.cfg&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;h2 id=&quot;instalação-concluida&quot;&gt;Instalação concluida&lt;/h2&gt;
-&lt;p&gt;Agora basta efetuar um crtl+d e reboot&lt;/p&gt;
-
-&lt;p&gt;cya.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/img/gvai.gif&quot; alt=&quot;gvai&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="Arch" /><category term="jekyll" /><category term="linux" /><summary type="html">Instalando Arch linux do zero.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/skell/arch.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/skell/arch.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Docker Psql</title><link href="http://localhost:4000/docker-psql/" rel="alternate" type="text/html" title="Docker Psql" /><published>2020-09-12T08:01:02-03:00</published><updated>2020-09-12T08:01:02-03:00</updated><id>http://localhost:4000/docker-psql</id><content type="html" xml:base="http://localhost:4000/docker-psql/">&lt;p&gt;&lt;img src=&quot;/assets/img/dockpsql.png&quot; style=&quot;width: 286px; height: 180px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Agora basta efetuar um crtl+d e reboot&lt;/p&gt;</content><author><name></name></author><category term="Arch" /><category term="jekyll" /><category term="linux" /><summary type="html">Instalando Arch linux do zero.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/skell/arch.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/skell/arch.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Docker Psql</title><link href="http://localhost:4000/docker-psql/" rel="alternate" type="text/html" title="Docker Psql" /><published>2020-09-12T08:01:02-03:00</published><updated>2020-09-12T08:01:02-03:00</updated><id>http://localhost:4000/docker-psql</id><content type="html" xml:base="http://localhost:4000/docker-psql/">&lt;p&gt;&lt;img src=&quot;/assets/img/dockpsql.png&quot; style=&quot;width: 286px; height: 180px;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt; Instalando docker e containers do postgresql &quot;psql&quot;. &lt;/p&gt;
 
@@ -138,10 +135,7 @@ Instalando  Arch linux do zero.&lt;/p&gt;
 
 &lt;h2 id=&quot;screenshots&quot;&gt;Screenshots&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&quot;/assets/img/pgadmin.png&quot; alt=&quot;pgadmin&quot; /&gt;
-&lt;img src=&quot;/assets/img/pgadmin1.png&quot; alt=&quot;pgadmin&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;cya.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/img/gvai.gif&quot; alt=&quot;gvai&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="Docker" /><category term="Psql" /><category term="Jekyll" /><category term="Linux" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/dockpsql.png" /><media:content medium="image" url="http://localhost:4000/assets/img/dockpsql.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Apache PHP</title><link href="http://localhost:4000/apache-php/" rel="alternate" type="text/html" title="Apache PHP" /><published>2020-09-12T08:01:02-03:00</published><updated>2020-09-12T08:01:02-03:00</updated><id>http://localhost:4000/apache-php</id><content type="html" xml:base="http://localhost:4000/apache-php/">&lt;p&gt;&lt;img src=&quot;/assets/img/apache-php.png&quot; style=&quot;width: 286px; height: 180px;&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/assets/img/pgadmin1.png&quot; alt=&quot;pgadmin&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="Docker" /><category term="Psql" /><category term="Jekyll" /><category term="Linux" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/dockpsql.png" /><media:content medium="image" url="http://localhost:4000/assets/img/dockpsql.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Apache PHP</title><link href="http://localhost:4000/apache-php/" rel="alternate" type="text/html" title="Apache PHP" /><published>2020-09-12T08:01:02-03:00</published><updated>2020-09-12T08:01:02-03:00</updated><id>http://localhost:4000/apache-php</id><content type="html" xml:base="http://localhost:4000/apache-php/">&lt;p&gt;&lt;img src=&quot;/assets/img/apache-php.png&quot; style=&quot;width: 286px; height: 180px;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt; Instalando docker e containers do postgresql &quot;psql&quot;. &lt;/p&gt;
 
@@ -184,7 +178,31 @@ LoadModule rewrite_module          modules/mod_rewrite.so&lt;/code&gt;&lt;/pre&g
 
 &lt;p&gt;Salve o arquivo, e reinicie o Apache, para podermos testar se o PHP está funcionando corretamente.&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;systemctl restart httpd.service&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;systemctl restart httpd.service&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name></name></author><category term="Apache" /><category term="Php" /><category term="Arch" /><category term="Linux" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/apache-php.png" /><media:content medium="image" url="http://localhost:4000/assets/img/apache-php.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Instalando Jekyll on mac.</title><link href="http://localhost:4000/jekyll-on-mac/" rel="alternate" type="text/html" title="Instalando  Jekyll on mac." /><published>2020-09-12T08:01:02-03:00</published><updated>2020-09-12T08:01:02-03:00</updated><id>http://localhost:4000/jekyll-on-mac</id><content type="html" xml:base="http://localhost:4000/jekyll-on-mac/">&lt;p&gt;&lt;img src=&quot;/assets/img/skell/jekyll.png&quot; style=&quot;width: 286px; height: 180px;&quot; /&gt;
+Instalando  Jekyll on mac.&lt;/p&gt;
 
-&lt;p&gt;E isso é tudo pessoal.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/img/gvai.gif&quot; alt=&quot;gvai&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="Apache" /><category term="Php" /><category term="Arch" /><category term="Linux" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/apache-php.png" /><media:content medium="image" url="http://localhost:4000/assets/img/apache-php.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;h2 id=&quot;instalação&quot;&gt;Instalação&lt;/h2&gt;
+
+&lt;p&gt; O primeiro passo é instalar o brew e o ruby&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;/usr/bin/ruby &lt;span class=&quot;nt&quot;&gt;-e&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;$(&lt;/span&gt;curl &lt;span class=&quot;nt&quot;&gt;-fsSL&lt;/span&gt; https://raw.githubusercontent.com/Homebrew/install/master/install&lt;span class=&quot;si&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+
+brew &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;ruby&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Adicione o path do ruby a sua shell&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'export PATH=&quot;/usr/local/opt/ruby/bin:$PATH&quot;'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; ~/.zshrc&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;instalando o jekyll e bundler&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;gem &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--user-install&lt;/span&gt; bundler jekyll&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;criando seu primeiro site&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;jekyll new myblog&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Rodando o servidor&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;bundle &lt;span class=&quot;nb&quot;&gt;exec &lt;/span&gt;jekyll serve&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;processo-concluído&quot;&gt;Processo concluído&lt;/h2&gt;</content><author><name></name></author><category term="macbook" /><category term="jekyll" /><category term="mac" /><summary type="html">Instalando Jekyll on mac.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/skell/jekyll.png" /><media:content medium="image" url="http://localhost:4000/assets/img/skell/jekyll.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
